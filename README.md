@@ -1,1 +1,1 @@
-# rsschool-cv
+https://kulpole.github.io/rsschool-cv/
