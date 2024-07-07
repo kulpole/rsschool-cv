@@ -1,8 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
-<body></body>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav_list">
+                    <li class="nav-item"><a href="#Contacts" class="nav-link">Contact Information</a></li>
+                    <li class="nav-item"><a href="#Summary" class="nav-link">About me</a></li>
+                    <li class="nav-item"><a href="#Skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#Code" class="nav-link">Code examples</a></li>
+                    <li class="nav-item"><a href="#Education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#Experience" class="nav-link">Experience</a></li>
+                    <li class="nav-item"><a href="#Languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container main-container">
+            <section class="section profile-section" id="profile">
+                <h1 class="section-title">Kulikov Anton</h1>
+                <img class="section-content photo" src="assets/img/photo.jpg" alt="my photo">
+            </section>
+
+            <section class="section" id="Contacts">
+                <h2 class="section-title">Contact Information</h2>
+                <p class="section-content">Address: Russia, Arkhangelsk<br>
+                    Phone: +79911138420<br>
+                    Discord: kulpole<br>
+                    Telegram: kulpole</p>
+            </section>
+            <section class="section" id="Summary">
+                <h2 class="section-title">About me</h2>
+                <p class="section-content">I am 25 years old. I didn’t see my future at previous job and decided to
+                    study programming. I have
+                    different
+                    hobbies and interests too. There are making music, running, cycling and cooking. My goal is to gain
+                    enough
+                    front-end development knowledge and get a job.
+                </p>
+            </section>
+            <section class="section" id="Skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="section-content">
+                    <li>HTML</li>
+                    <li>CSS (Preprocessor SCSS, BEM methodology).</li>
+                    <li>JavaScript (Fundamentals)</li>
+                    <li>Git/GitHub.</li>
+                    <li>Figma, Gimp, Inkscape</li>
+                    <li>VSCode</li>
+                    <li>Touch typing 100+ wpm</li>
+                </ul>
+            </section>
+            <section class="section" id="Code">
+                <h2 class="section-title">Code examples</h2>
+                <p class="section-content">
+                    <code>
+                        console.log('Hello World!');
+                    </code>
+                </p>
+            </section>
+            <section class="section" id="Education">
+                <h2 class="section-title">Education</h2>
+                <ul class="section-content">
+                    <li>Marathon HTML Academy "Scary stories about JavaScript"</li>
+                    <li>RS Schools Course «JavaScript/Front-end» (in progress)</li>
+                </ul>
+            </section>
+            <section class="section" id="Experience">
+                <h2 class="section-title">Experience</h2>
+                <a class="section-content" href="https://kulpole.github.io/rsschool-cv/">CV project</a>
+            </section>
+            <section class="section" id="Languages">
+                <h2 class="section-title">Languages</h2>
+                <ul class="section-content">
+                    <li>English - Beginner</li>
+                    <li>Russian - Native</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container footer-container">
+            <a class="footer-content" href="https://github.com/kulpole">© kulpole 2024</a>
+
+            <a class="footer-content" href="https://rs.school/courses/javascript-ru">
+                <img class="rss"
+                    src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/25280abf1815aaf58ff04a69c0f82393d5f54ef0/tasks/cv/rs-school-logo.svg"
+                    alt="school logo">
+            </a>
+        </div>
+    </footer>
+</body>
+
 </html>
